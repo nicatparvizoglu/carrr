@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+ 
+/* Header Star */
+.header .top-header .top-right,
+.header .top-header .login{
+    float: right;
+}
+.header .top-header .social-icons,
+.header .top-header .top-left
+{
+float: left;
+}
+
+.header .top-header .top-left span{
+    margin-right: 10px;
+}
+.header{
+    background: brown;
+    height: 120px;
+    color: #ffffff;
+    
+}
+.header .top-header {
+    padding: 10px 0;
+    font-size: .9em;
+}
+    .header .top-left span{
+        margin-right: 10px;
+    }
+    .header .socail-icons i{
+        margin-right: 8px;
+    }
+    .header .login a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+/* Header End */
+
+.header .header-footer .logo{
+    width: 16%;
+}
+.header-footer{
+    margin-top: 40px;
+    height: 100px;
+   background: white;
+   
+}
+.header-footer .logo{
+    float: left;
+}
+.header-footer .menu li{
+    float: right;
+    list-style: none;
+    padding: 10px 12px;
+}
+.header-footer .logo img{
+    width: 100%;
+}
