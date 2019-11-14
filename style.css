@@ -2,13 +2,25 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover  ;
+    
 }
 .clear{
     clear: both;
 }
+.header{
+    position: fixed;
+    width: 100%;
+}
+.top-header{
+    padding: 10px;
+}
+.top-header .top-right i{
+    padding: 0 10px;
+}
 .wrapper{
-    width: 80%;
+    width: 61%;
     margin: auto;
 }
  
@@ -28,7 +40,7 @@ float: left;
 }
 .header{
     background: brown;
-    height: 120px;
+    height: 93px;
     color: #ffffff;
     
 }
@@ -54,17 +66,80 @@ float: left;
 .header-footer{
     margin-top: 40px;
     height: 100px;
-   background: white;
+    background: white;
+    position: relative;
    
 }
 .header-footer .logo{
     float: left;
+    margin: 35px 15px;
+    
 }
-.header-footer .menu li{
+.header-footer .menu{
     float: right;
+    transition:.3s ease-in-out;
+
+}
+.header-footer .menu ul {
     list-style: none;
-    padding: 10px 12px;
+
+    padding:0px;
+  
+    color: black;
+    text-decoration: none;
+   
+}
+.header-footer .menu .dropmenu{
+    float: left;
+
+    padding: 39px 12px;
+     color:white;   
+     position: relative;
+    font-size: 20px;
+    /* opacity: 0.8; */
+}
+.header-footer .menu .dropmenu:hover .dropdown{
+  display:block;
+}
+.header-footer .menu .dropmenu .dropdown{
+    position: absolute;
+  
+    top: 100%;
+    border-top:2px solid brown;
+    display: none;
+    width: 200px;
+    padding: 15px;
+    margin: 0;
+    left: 0;
+    background-color: white;
+}
+.header-footer .menu .dropmenu .dropdown li{
+    padding: 12px 15px;
+   
+}
+.header-footer .menu ul li a{
+    text-decoration: none;
+    color:black;
+    
 }
 .header-footer .logo img{
     width: 100%;
+   
+}
+
+.orta{
+    background-color: darkgray;
+}
+.orta img{
+    margin-left:30%;
+    
+}
+.header-footer .menu .dropmenu .dropdown li i{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.inputlar input{
+    margin: 50px;
+    padding: 60px;
+    
 }
